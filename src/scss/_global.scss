@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $clr-primary;
+  color: $clr-light;
+  font-size: 62.5%;
+  font-family: sans-serif;
+  padding: 4rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+h1 {
+  user-select: none;
+}
+
+.box {
+  display: grid;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
